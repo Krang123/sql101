@@ -1,3 +1,5 @@
 # New database
 CREATE DATABASE nom_database ;
 USE nom_database;
+# Display tables columns 
+DESC nom_database;
