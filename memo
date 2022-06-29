@@ -2,4 +2,14 @@
 CREATE DATABASE nom_database ;
 USE nom_database;
 # Display tables columns 
-DESC nom_database;
+CREATE TABLE nom_table;
+DESC nom_table;
+DROP nom_table;
+# insert
+INSERT INTO nom_table (columns) VALUES (values) ;
+# Select
+SELECT * FROM nom_table ;
+# NOT NULL
+nom_colonne type NOT NULL ;
+# DEFAULT 
+nom_colonne type DEFAULT value ;
