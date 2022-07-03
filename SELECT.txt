@@ -1,1 +1,4 @@
 SELECT * FROM my_table ; 
+
+// I want all the lines that value belongs to column_name
+SELECT * FROM my_table WHERE columun_name = "value" ;
