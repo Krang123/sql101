@@ -1,3 +1,4 @@
+show databases
 # New database
 CREATE DATABASE nom_database ;
 USE nom_database;
