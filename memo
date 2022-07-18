@@ -14,3 +14,5 @@ SELECT * FROM nom_table ;
 nom_colonne type NOT NULL ;
 # DEFAULT 
 nom_colonne type DEFAULT value ;
+# select a lie
+SELECT * FROM nom_table WHERE nom_colonne = value ;
